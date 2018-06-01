@@ -1,0 +1,438 @@
+{
+  "paragraphs": [
+    {
+      "text": "%md\n# Federate to Db2 Workbook\n\n## Example of federation to a Db2 server\n\n### This\nthis\nthis\n1- this\n2- that\n",
+      "user": "admin",
+      "dateUpdated": "Jun 1, 2018 6:58:37 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "editOnDblClick": true,
+          "language": "markdown"
+        },
+        "editorMode": "ace/mode/markdown",
+        "tableHide": false,
+        "editorHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch1\u003eFederate to Db2 Workbook\u003c/h1\u003e\n\u003ch2\u003eExample of federation to a Db2 server\u003c/h2\u003e\n\u003ch3\u003eThis\u003c/h3\u003e\n\u003cp\u003ethis\u003cbr/\u003ethis\u003cbr/\u003e1- this\u003cbr/\u003e2- that\u003c/p\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1527710415925_-1267015156",
+      "id": "20180530-200015_1868119086",
+      "dateCreated": "May 30, 2018 8:00:15 PM",
+      "dateStarted": "May 31, 2018 8:26:32 PM",
+      "dateFinished": "May 31, 2018 8:26:32 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sh\npwd",
+      "user": "admin",
+      "dateUpdated": "May 31, 2018 8:10:02 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "editOnDblClick": false,
+          "language": "sh"
+        },
+        "editorMode": "ace/mode/sh",
+        "tableHide": false,
+        "editorHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "/user-home/999/DSX_Projects/fed_run_books\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1527793210539_957694488",
+      "id": "20180531-190010_1730326555",
+      "dateCreated": "May 31, 2018 7:00:10 PM",
+      "dateStarted": "May 31, 2018 8:10:02 PM",
+      "dateFinished": "May 31, 2018 8:10:02 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sh\necho \"Where is db2?\"\nwhich db2\n\necho \"Where is the rest?\"\nwhich ls\nwhich ps\n\necho \"Where is this:\" \nwhich ${some_exec\u003dps}",
+      "user": "admin",
+      "dateUpdated": "Jun 1, 2018 6:59:53 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "editOnDblClick": false,
+          "language": "sh"
+        },
+        "editorMode": "ace/mode/sh",
+        "tableHide": false,
+        "editorHide": false
+      },
+      "settings": {
+        "params": {
+          "some_exec": "id"
+        },
+        "forms": {
+          "some_exec": {
+            "name": "some_exec",
+            "defaultValue": "ps",
+            "hidden": false
+          }
+        }
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Where is db2?\nWhere is the rest?\n/bin/ls\n/bin/ps\nWhere is this:\n/usr/bin/id\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1527797120940_-1163092953",
+      "id": "20180531-200520_1005008666",
+      "dateCreated": "May 31, 2018 8:05:20 PM",
+      "dateStarted": "Jun 1, 2018 6:59:53 PM",
+      "dateFinished": "Jun 1, 2018 6:59:53 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n### Create Server command example",
+      "user": "admin",
+      "dateUpdated": "Jun 1, 2018 6:58:59 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "editOnDblClick": true,
+          "language": "markdown"
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003eCreate Server command example\u003c/h3\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1527879503985_-810178028",
+      "id": "20180601-185823_940722607",
+      "dateCreated": "Jun 1, 2018 6:58:23 PM",
+      "dateStarted": "Jun 1, 2018 6:58:59 PM",
+      "dateFinished": "Jun 1, 2018 6:58:59 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sh\n\n# db2 \"CREATE SERVER SERVER5 type oracle_odbc version 12 AUTHORIZATION J15USER2 PASSWORD \"J15USER2\" OPTIONS( SERVICE_NAME \u0027pdborcl.fyre.ibm.com\u0027,PUSHDOWN \u0027Y\u0027,PASSWORD \u0027Y\u0027,PORT \u00271521\u0027,HOST \u0027bock1.fyre.ibm.com\u0027)\"\n# db2 \"CREATE USER MAPPING FOR PUBLIC SERVER SERVER5 OPTIONS( REMOTE_PASSWORD \u0027J15USER2\u0027,REMOTE_AUTHID \u0027J15USER2\u0027 )\"\n# db2 \"set passthru server5\"\n# db2 \"CREATE TABLE BIGAFED_INT (COL_ID INT,COL_CHAR CHAR(10))\"\n# db2 \"INSERT into BIGAFED_INT values (1, \u0027test\u0027)\"\n# db2 set passthru reset\n# db2 \"CREATE NICKNAME BIGAFED_INT_NICK FOR SERVER5.BIGAFED_INT\"\n\n\necho db2 \"CREATE SERVER ${SERVER_NAME\u003dORACLE_SERV} type ${SERVER_TYPE\u003doracle_odbc} version ${SERVER_VERSION\u003d12} AUTHORIZATION ${AUTHORIZATION\u003dJ15USER2} PASSWORD \\\"${AUTH_PASSWD\u003dJ15USER2}\\\" OPTIONS( SERVICE_NAME \u0027${SERVICE_NAME\u003dpdborcl.fyre.ibm.com}\u0027,PUSHDOWN \u0027Y\u0027,PASSWORD \u0027Y\u0027,PORT \u0027${PORT_NUM\u003d1521}\u0027,HOST \u0027${HOST_NAME\u003dbock1.fyre.ibm.com}\u0027)\"\n\n\necho server: ${SERVER_NAME}\n\n# db2 \"CREATE USER MAPPING FOR PUBLIC SERVER SERVER5 OPTIONS( REMOTE_PASSWORD \u0027J15USER2\u0027,REMOTE_AUTHID \u0027J15USER2\u0027 )\"\n# db2 \"set passthru server5\"\n# db2 \"CREATE TABLE BIGAFED_INT (COL_ID INT,COL_CHAR CHAR(10))\"\n# db2 \"INSERT into BIGAFED_INT values (1, \u0027test\u0027)\"\n# db2 set passthru reset\n# db2 \"CREATE NICKNAME BIGAFED_INT_NICK FOR SERVER5.BIGAFED_INT\"\n\n\n# Test\n\n\n",
+      "user": "admin",
+      "dateUpdated": "Jun 1, 2018 6:56:20 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "editOnDblClick": false,
+          "language": "sh"
+        },
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {
+          "FED_SERVER": "",
+          "AUTHORIZATION": "J15USER2",
+          "AUTH_PASSWD": "J15USER2",
+          "SERVICE_NAME": "pdborcl.fyre.ibm.com",
+          "PORT_NUM": "1521",
+          "HOST_NAME": "bock1.fyre.ibm.com",
+          "SERV_TYPE": "",
+          "SERV_VERSION": "",
+          "SERVER_NAME": "ORACLE_SERV",
+          "SERVER_TYPE": "oracle_odbc",
+          "SERVER_VERSION": "12"
+        },
+        "forms": {
+          "SERVER_NAME": {
+            "name": "SERVER_NAME",
+            "defaultValue": "",
+            "hidden": false
+          },
+          "SERVER_TYPE": {
+            "name": "SERVER_TYPE",
+            "defaultValue": "oracle_odbc",
+            "hidden": false
+          },
+          "SERVER_VERSION": {
+            "name": "SERVER_VERSION",
+            "defaultValue": "12",
+            "hidden": false
+          },
+          "AUTHORIZATION": {
+            "name": "AUTHORIZATION",
+            "defaultValue": "J15USER2",
+            "hidden": false
+          },
+          "AUTH_PASSWD": {
+            "name": "AUTH_PASSWD",
+            "defaultValue": "J15USER2",
+            "hidden": false
+          },
+          "SERVICE_NAME": {
+            "name": "SERVICE_NAME",
+            "defaultValue": "pdborcl.fyre.ibm.com",
+            "hidden": false
+          },
+          "PORT_NUM": {
+            "name": "PORT_NUM",
+            "defaultValue": "1521",
+            "hidden": false
+          },
+          "HOST_NAME": {
+            "name": "HOST_NAME",
+            "defaultValue": "bock1.fyre.ibm.com",
+            "hidden": false
+          }
+        }
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "db2 CREATE SERVER ORACLE_SERV type oracle_odbc version 12 AUTHORIZATION J15USER2 PASSWORD \"J15USER2\" OPTIONS( SERVICE_NAME \u0027pdborcl.fyre.ibm.com\u0027,PUSHDOWN \u0027Y\u0027,PASSWORD \u0027Y\u0027,PORT \u00271521\u0027,HOST \u0027bock1.fyre.ibm.com\u0027)\nserver: ORACLE_SERV\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1527798738522_-1004061962",
+      "id": "20180531-203218_786209219",
+      "dateCreated": "May 31, 2018 8:32:18 PM",
+      "dateStarted": "Jun 1, 2018 6:56:20 PM",
+      "dateFinished": "Jun 1, 2018 6:56:20 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sh\n\n# db2 \"CREATE USER MAPPING FOR PUBLIC SERVER SERVER5 OPTIONS( REMOTE_PASSWORD \u0027J15USER2\u0027,REMOTE_AUTHID \u0027J15USER2\u0027 )\"\n",
+      "user": "admin",
+      "dateUpdated": "Jun 1, 2018 6:56:52 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "editOnDblClick": false,
+          "language": "sh"
+        },
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "jobName": "paragraph_1527872312992_-1454727072",
+      "id": "20180601-165832_707209189",
+      "dateCreated": "Jun 1, 2018 4:58:32 PM",
+      "dateStarted": "Jun 1, 2018 6:56:52 PM",
+      "dateFinished": "Jun 1, 2018 6:56:52 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sh\n# db2 \"set passthru server5\"",
+      "user": "admin",
+      "dateUpdated": "Jun 1, 2018 6:57:08 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "editOnDblClick": false,
+          "language": "sh"
+        },
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1527879412843_529762829",
+      "id": "20180601-185652_1686601169",
+      "dateCreated": "Jun 1, 2018 6:56:52 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sh\n# db2 \"CREATE TABLE BIGAFED_INT (COL_ID INT,COL_CHAR CHAR(10))\"",
+      "user": "admin",
+      "dateUpdated": "Jun 1, 2018 6:57:36 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "editOnDblClick": false,
+          "language": "sh"
+        },
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1527879451291_341882773",
+      "id": "20180601-185731_1216044861",
+      "dateCreated": "Jun 1, 2018 6:57:31 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sh\n# db2 \"INSERT into BIGAFED_INT values (1, \u0027test\u0027)\"",
+      "user": "admin",
+      "dateUpdated": "Jun 1, 2018 6:57:45 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "editOnDblClick": false,
+          "language": "sh"
+        },
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1527879462000_1992470878",
+      "id": "20180601-185742_1011337378",
+      "dateCreated": "Jun 1, 2018 6:57:42 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sh\n# db2 set passthru reset",
+      "user": "admin",
+      "dateUpdated": "Jun 1, 2018 6:57:57 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "editOnDblClick": false,
+          "language": "sh"
+        },
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1527879469921_-870445687",
+      "id": "20180601-185749_925078492",
+      "dateCreated": "Jun 1, 2018 6:57:49 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sh\n# db2 \"CREATE NICKNAME BIGAFED_INT_NICK FOR SERVER5.BIGAFED_INT\"",
+      "user": "admin",
+      "dateUpdated": "Jun 1, 2018 6:58:08 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "editOnDblClick": false,
+          "language": "sh"
+        },
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1527879482722_1652752924",
+      "id": "20180601-185802_245383239",
+      "dateCreated": "Jun 1, 2018 6:58:02 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sh\n",
+      "user": "admin",
+      "dateUpdated": "Jun 1, 2018 6:58:04 PM",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1527879484191_667041566",
+      "id": "20180601-185804_1882431922",
+      "dateCreated": "Jun 1, 2018 6:58:04 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "Federate to Db2",
+  "id": "2DDYB5QF5",
+  "angularObjects": {
+    "2CYSFF4KX:shared_process": [],
+    "2CZ7M5Z1U:shared_process": [],
+    "2CZN4E536:shared_process": [],
+    "2CXMXB6B9:shared_process": [],
+    "2CX1UN2AM:shared_process": [],
+    "2CVYP86A3:shared_process": [],
+    "2CZPMT4AR:shared_process": []
+  },
+  "config": {},
+  "info": {}
+}
